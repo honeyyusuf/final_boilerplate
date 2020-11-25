@@ -22,7 +22,7 @@ const runSchemaFiles = function() {
         console.log( `\t-> Running ${chalk.green(fn)}` );
         client.querySync(sql);
     }
-};
+};  
 
 const runSeedFiles = function() {
     console.log(chalk.cyan( `-> Loading Seeds ...` ));
